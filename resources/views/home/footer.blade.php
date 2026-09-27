@@ -6,26 +6,25 @@
                <h3>Contact US</h3>
                <ul class="conta">
                   <li><i class="fa fa-map-marker" aria-hidden="true"></i> Address</li>
-                  <li><i class="fa fa-mobile" aria-hidden="true"></i> +01 1234569540</li>
-                  <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> demo@gmail.com</a></li>
+                  <li><i class="fa fa-mobile" aria-hidden="true"></i>9844413247</li>
+                  <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">uanish767@gail.com</a></li>
                </ul>
             </div>
             <div class="col-md-4">
                <h3>Menu Link</h3>
                <ul class="link_menu">
                   <li class="active"><a href="{{ route('home') }}">Home</a></li>
-                  <li><a href="{{ route('about') }}"> about</a></li>
-                  <li><a href="{{ route('room') }}">Our Room</a></li>
-                  <li><a href="{{ route('gallery') }}">Gallery</a></li>
-                  <li><a href="{{ route('blog') }}">Blog</a></li>
-                  <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                  <li><a href="{{ url('/about') }}" data-target="about"> about</a></li>
+                  <li><a href="{{ url('/room') }}" data-target="room">Our Room</a></li>
+                  <li><a href="{{ url('/gallery') }}" data-target="gallery">Gallery</a></li>
+                  <li><a href="{{ url('/blog') }}" data-target="blog">Blog</a></li>
+                  <li><a href="{{ url('/contact') }}" data-target="contact">Contact Us</a></li>
                </ul>
             </div>
             <div class="col-md-4">
                <h3>News letter</h3>
                <form class="bottom_form">
                   <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
-                  <button class="sub_btn">subscribe</button>
                </form>
                <ul class="social_icon">
                   <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -41,9 +40,8 @@
             <div class="row">
                <div class="col-md-10 offset-md-1">
                   <p>
-                  © 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a>
+                  © 2026 All Rights Reserved.
                   <br><br>
-                  Distributed by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
                   </p>
                </div>
             </div>
